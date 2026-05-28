@@ -1,0 +1,16 @@
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\bin\Debug\MIPOSCSharpMySQL.exe.config
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\bin\Debug\MIPOSCSharpMySQL.exe
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\bin\Debug\MIPOSCSharpMySQL.pdb
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.csproj.AssemblyReference.cache
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Form1.resources
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Properties.Resources.resources
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.csproj.GenerateResource.cache
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.csproj.CoreCompileInputs.cache
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.exe
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.pdb
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.exe.config
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Formularios.FromBuscarComprobante.resources
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Formularios.FromClientes.resources
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Formularios.FromProductos.resources
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Formularios.FromReportePorFechas.resources
+C:\Users\agustin\source\repos\MIPOSCSharpMySQL\MIPOSCSharpMySQL\obj\Debug\MIPOSCSharpMySQL.Formularios.FromVentas.resources
