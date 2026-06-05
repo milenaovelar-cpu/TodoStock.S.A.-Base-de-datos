@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="DER Completo" id="0">
+    <mxGraphModel dx="1212" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v" parent="1" style="swimlane;whiteSpace=wrap;verticalAlign=top;" value="VENTAS&#xa;PK id_venta&#xa;fecha&#xa;total&#xa;metodo_pago&#xa;FK id_cliente&#xa;FK id_empleado" vertex="1">
+          <mxGeometry height="180" width="180" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="swimlane" value="" vertex="1">
+          <mxGeometry height="180" width="180" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vamDkKxSZ-xS7Xoo3OBw-8" parent="c" style="text;whiteSpace=wrap;html=1;align=center;fontStyle=1" value="CLIENTES &#xa;PK id_cliente &#xa;nombre &#xa;apellido &#xa;dni &#xa;telefono &#xa;email &#xa;direccion &#xa;fecha_registro" vertex="1">
+          <mxGeometry height="180" width="140" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="p" parent="1" style="swimlane;startSize=23;" value="" vertex="1">
+          <mxGeometry height="180" width="180" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vamDkKxSZ-xS7Xoo3OBw-9" parent="p" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fontStyle=1" value="PRODUCTOS &#xa;PK id_producto &#xa;nombre &#xa;descripcion &#xa;precio &#xa;stock &#xa;categoria &#xa;marca &#xa;FK id_proveedor" vertex="1">
+          <mxGeometry height="150" width="120" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f" parent="1" style="swimlane;verticalAlign=top;" value="FACTURA&#xa;PK id_factura&#xa;numero&#xa;fecha_emision&#xa;subtotal&#xa;iva&#xa;total&#xa;FK id_venta" vertex="1">
+          <mxGeometry height="180" width="180" x="740" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e" parent="1" style="swimlane;verticalAlign=top;" value="EMPLEADOS&#xa;PK id_empleado&#xa;nombre&#xa;apellido&#xa;dni&#xa;cargo&#xa;telefono&#xa;salario&#xa;fecha_ingreso" vertex="1">
+          <mxGeometry height="190" width="180" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pr" parent="1" style="swimlane;verticalAlign=top;" value="PROVEEDORES&#xa;PK id_proveedor&#xa;empresa&#xa;contacto&#xa;telefono&#xa;email&#xa;direccion&#xa;cuit" vertex="1">
+          <mxGeometry height="170" width="180" x="260" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="d" parent="1" style="swimlane;verticalAlign=top;" value="DESPACHO&#xa;PK id_despacho&#xa;fecha_envio&#xa;estado&#xa;transportista&#xa;direccion_entrega&#xa;FK id_factura" vertex="1">
+          <mxGeometry height="170" width="180" x="500" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="c" target="v">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="e" target="v">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="pr" target="p">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="v" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="f" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pedidos" parent="1" style="swimlane;verticalAlign=top;" value="PEDIDOS&#xa;PK id_pedido&#xa;fecha_pedido&#xa;estado&#xa;FK id_cliente" vertex="1">
+          <mxGeometry as_="geometry" height="140" width="180" x="740" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="detalle" parent="1" style="swimlane;startSize=20;verticalAlign=top;" value="DETALLE_PEDIDO&#xa;PK id_detalle&#xa;cantidad&#xa;precio_unitario&#xa;FK id_pedido&#xa;FK id_producto" vertex="1">
+          <mxGeometry as_="geometry" height="180" width="220" x="980" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cat" parent="1" style="swimlane;verticalAlign=top;" value="CATEGORIAS&#xa;PK id_categoria&#xa;nombre&#xa;descripcion" vertex="1">
+          <mxGeometry as_="geometry" height="130" width="180" x="980" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vamDkKxSZ-xS7Xoo3OBw-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="250" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vamDkKxSZ-xS7Xoo3OBw-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="250" as="sourcePoint" />
+            <mxPoint x="640" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vamDkKxSZ-xS7Xoo3OBw-5" edge="1" parent="1" source="pedidos" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="detalle" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vamDkKxSZ-xS7Xoo3OBw-7" edge="1" parent="1" source="p" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="detalle" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
